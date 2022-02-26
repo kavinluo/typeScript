@@ -1,11 +1,12 @@
-全局配置
-方案一： 安装包 ts-node  全局安装
-编译跑在node
-同时依赖 安装tslib 和@types/node
-执行 ts-node xxx.ts
+# webpack配置Typescript
+## 全局配置
+1. 方案一： 安装包 ts-node  全局安装
+  编译跑在node环境中
+ 同时依赖 安装tslib 和@types/node
+ 执行 ts-node xxx.ts
 
-方案二：webpack编译
-顾名思义就是依靠webpack来帮我们打包编译
+1. 方案二：webpack编译
+ 顾名思义就是依靠webpack来帮我们打包编译
  mkdir webpack-TS
  cd webpack-TS 
  init
